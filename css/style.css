@@ -11,7 +11,7 @@
     background-color: #0084FD;
 }
 
- .menu{
+ .fa-bars{
     justify-content: flex-end;
 }
 
@@ -31,11 +31,11 @@
 
 .big{
     
-    background-color: blueviolet;
+    background-color: #B5DDFF;
 }
 
 .little{
-    background-color: blue;
+    background-color: #B5DDFF
 }
 
 
@@ -52,7 +52,7 @@
 
 .testimonial{
     text-align: center;
-    background-color: aqua;
+    
 }
 
 .card-testimonial{
@@ -83,10 +83,10 @@
 }
 
 .get-started{
-    background-color: aqua;
+    background-color: #9792E4;
 }
 
 .footer{
-    background-color:grey;
+    background-color:#333333;
     color: white;
 }
