@@ -75,7 +75,9 @@ button{
     width: 100%;
    
 }
-
+.phone img{
+    width: 100%;
+}
 
 /* little card */
 .little{
