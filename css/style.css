@@ -45,7 +45,10 @@ strong{
     font-size: 13px;
     margin-bottom: 1rem;
 }
-
+.demo{
+    display: flex;
+    flex-wrap: wrap;
+}
 button{
     border-radius: 30px;
     border-style:none;
@@ -54,6 +57,7 @@ button{
     width: 10rem;
     color: white;
     margin-bottom: 1rem;
+    height: 2rem;
    
 }
 
@@ -66,9 +70,13 @@ button{
     background-color: #B5DDFF;
     
 }
-.big img{
+
+.phone{
     width: 100%;
+   
 }
+
+
 /* little card */
 .little{
     text-align: center;
@@ -185,13 +193,16 @@ h2{
 }
 /* benefits */
 .benefits{
-    display: block;
     padding: 1rem;
     background-color: #9792E4;
+    width: 100%;
 }
-
+.laptop-cont{
+    
+    width: 100%;
+}
 .name{
-     color: white;
+    color: white;
     text-align: center;
     margin: 1rem;
     width: 100%;
@@ -317,8 +328,10 @@ h2{
 
 /* media query */
 
+/* tablet */
+
 /* jumbo e card */
-@media screen and (min-width:480px){
+@media screen and (min-width:765px){
 .jumbotron{
     display: flex;   
     width:100%;
@@ -328,7 +341,7 @@ h2{
 } 
 }
     
-@media screen and (min-width:480px) {
+@media screen and (min-width:765px) {
     .big {
         width: 65%;
         display: flex;
@@ -337,7 +350,7 @@ h2{
     };
 }
 
-@media screen and ( min-width:480px) {
+@media screen and ( min-width:765px) {
     .little{
         width:33%;
         flex-direction: column;
@@ -345,21 +358,21 @@ h2{
     }
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 765px){
    .big img{
     width:60%; 
     }
 }
 /* testimonial */
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 765px){
     .card-testimonial{
     display: flex;
     flex-direction: row;
     padding: 1rem;
     }
  }
- @media screen and (min-width: 480px){
+ @media screen and (min-width: 765px){
     .name{
     display: block;
     width: 100%;
@@ -367,7 +380,7 @@ h2{
  }
  
  /* working with us */
-@media screen and (min-width:480px) {
+@media screen and (min-width:765px) {
     .benefits{
         justify-content: center; 
         display: flex;  
@@ -375,7 +388,7 @@ h2{
     }
 }
 /*  benefits */
-@media screen and (min-width:480px){
+@media screen and (min-width:765px){
     .card-benefits{
        
         width: 45%;
@@ -391,3 +404,83 @@ h2{
     }
 }
 
+/* laptop 1024px */
+
+@media screen and (min-width:1024px){
+    .jumbotron{
+        display: flex;   
+        width:75%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1rem;
+    } 
+    }
+
+    @media screen and (min-width:1024px) {
+        .big {
+            display: flex;
+            flex-direction: row
+            };
+        }
+
+
+@media screen and (min-width:1024px) {
+    .demo {
+        width: 55%;
+        };
+    }
+    
+    @media screen and (min-width:1024px) {
+        .phone {
+            width: 45%;
+            };
+        }    
+
+@media screen and (min-width:1024px) {
+    .phone img {
+        width: 100%;
+    };
+}     
+
+/* due colonne  */
+@media screen and (min-width:1024px) {
+    .laptop {
+        display: flex;
+        width: 70%;
+    };
+}  
+
+
+@media screen and (min-width:1024px) {
+    .first {
+        width: 50%;
+       margin-right: 3rem
+    };
+}    
+
+@media screen and (min-width:1024px) {
+    .second {
+        width: 50%;
+      
+    };
+}   
+
+@media screen and (min-width:1024px) {
+    .testimonial {
+        width: 70%;
+      
+    };
+}   
+
+@media screen and (min-width:1024px) {
+    .card-benefits {
+      width: 33%;
+      };
+}  
+
+@media screen and (min-width:1024px) {
+    .info{
+        width: 70%;
+    }
+    
+}
